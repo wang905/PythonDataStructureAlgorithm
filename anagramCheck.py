@@ -18,8 +18,8 @@ def anagram_solution(s1, s2):
         else:
             still_ok = False
         
-        pos1 += pos1
+        pos1 += 1
 
     return still_ok
 
-print(anagram_solution('abcd', 'dcbadd'))
+print(anagram_solution('abcd', 'dcbaed'))
